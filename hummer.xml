@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="avium-devices-hummer"
+           fetch="https://github.com/AviumUI-Devices"
+           revision="avium-16.2" />
+           
+  <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" clone-depth="1" />
+  <project path="device/oneplus/hummer" name="device_oneplus_hummer" remote="avium-devices-hummer" clone-depth="1" />
+  <project path="device/oneplus/sm8750-common" name="device_oneplus_sm8750-common" remote="avium-devices-hummer" clone-depth="1" />
+  <project path="kernel/oneplus/sm8750" name="kernel_oneplus_sm8750" remote="avium-devices-hummer" clone-depth="1" />
+  <project path="kernel/oneplus/sm8750-devicetrees" name="kernel_oneplus_sm8750-devicetrees" remote="avium-devices-hummer" clone-depth="1" />
+  <project path="kernel/oneplus/sm8750-modules" name="kernel_oneplus_sm8750-modules" remote="avium-devices-hummer" clone-depth="1" />
+  <project path="vendor/oneplus/hummer" name="vendor_oneplus_hummer" remote="avium-devices-hummer" clone-depth="1" />
+  <project path="vendor/oneplus/sm8750-common" name="vendor_oneplus_sm8750-common" remote="avium-devices-hummer" clone-depth="1" />
+</manifest>
